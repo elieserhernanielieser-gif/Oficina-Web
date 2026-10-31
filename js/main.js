@@ -3,7 +3,7 @@ const projects = Array.from({ length: 15 }, (_, index) => {
   return {
     id: number,
     title: `Projecto ${String(number).padStart(2, "0")}`,
-    description: "Exercício prático de desenvolvimento de páginas com HTML e CSS. Actualiza esta descrição com o objectivo real do exercício.",
+    description: "Exercício prático de desenvolvimento de páginas com HTML e CSS.",
     folder: `project-${String(number).padStart(2, "0")}`
   };
 });

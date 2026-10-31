@@ -1,5 +1,98 @@
-*{box-sizing:border-box}
-body{margin:0;padding:40px;font-family:Arial,sans-serif;background:#f3f6fb;color:#17243a}
-main{max-width:800px;margin:10vh auto;padding:40px;background:white;border-radius:16px}
-p:first-child{color:#087BFF;font-size:.8rem;letter-spacing:.12em}
-h1{font-size:clamp(2rem,5vw,3.5rem)}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f3f3;
+}
+
+main {
+    max-width: 34rem;
+    margin: 3rem auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    color: #6b7280;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border: 0.08rem solid #d6d6d6;
+    border-radius: 1.5rem;
+    background: #fff;
+}
+
+.selo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 2;
+
+    background: #fff;
+    color: #000;
+
+    padding: 0.4rem 1rem;
+    border-radius: 999rem;
+    border: 0.08rem solid #ddd;
+    font-size: 1rem;
+}
+
+.imagem {
+    height: 22rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    padding: 1.5rem;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0)
+        ),
+        #d9d9d9;
+}
+
+.imagem h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.4rem 1.5rem;
+}
+
+.info p {
+    color: #6b7280;
+    font-size: 1.1rem;
+}
+
+.botao {
+    text-decoration: none;
+    color: white;
+    background: #111;
+
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
