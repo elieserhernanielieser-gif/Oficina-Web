@@ -1,0 +1,5 @@
+*{box-sizing:border-box}
+body{margin:0;padding:40px;font-family:Arial,sans-serif;background:#f3f6fb;color:#17243a}
+main{max-width:800px;margin:10vh auto;padding:40px;background:white;border-radius:16px}
+p:first-child{color:#087BFF;font-size:.8rem;letter-spacing:.12em}
+h1{font-size:clamp(2rem,5vw,3.5rem)}

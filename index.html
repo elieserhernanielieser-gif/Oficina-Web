@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oficina Web — uma coleção de experiências práticas de HTML e CSS.">
+  <title>Oficina Web — Elieser Hernani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span><span>OFICINA<span class="accent">WEB</span></span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Início</a></li>
+        <li><a href="projectos.html">Projectos</a></li>
+        <li><a href="sobre.html">Sobre mim</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> APRENDER • CRIAR • EXPERIMENTAR</span>
+        <p class="code-label">&lt; Bem-vindo à minha oficina /&gt;</p>
+        <h1>Olá, sou <span class="gradient-text">Elieser Hernani.</span></h1>
+        <h2 class="hero-subtitle">Também conhecido como <span class="accent">Machine 001</span></h2>
+        <p class="hero-description">Sou estudante de desenvolvimento de software, apaixonado por tecnologia, programação e criação de experiências digitais. Aqui reúno 15 exercícios práticos desenvolvidos com HTML e CSS.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projectos.html">Explorar projectos <span>↗</span></a>
+          <a class="btn btn-outline" href="sobre.html">Conhecer o autor</a>
+        </div>
+        <div class="tech-list">
+          <span class="tech-chip"><b>5</b> HTML</span>
+          <span class="tech-chip"><b>3</b> CSS</span>
+          <span class="tech-note">A construir, um projecto de cada vez.</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="profile-frame">
+          <div class="profile-placeholder"><span>EH</span><small>ADICIONA A TUA FOTO</small></div>
+          <div class="frame-tag">&lt; MACHINE_001 /&gt;</div>
+        </div>
+        <div class="floating-card"><span class="status-dot"></span> Em constante aprendizagem</div>
+        <div class="visual-caption">“Grandes resultados vêm de pequenos passos.”</div>
+      </div>
+    </section>
+
+    <section class="projects-section section container">
+      <div class="section-heading">
+        <div><span class="eyebrow">O QUE TENHO CONSTRUÍDO</span><h2>As minhas <span class="gradient-text">experiências.</span></h2><p>Uma selecção de páginas e exercícios desenvolvidos durante a minha aprendizagem.</p></div>
+        <a class="text-link" href="projectos.html">Ver os 15 projectos <span>→</span></a>
+      </div>
+      <div class="project-track" id="featured-projects"></div>
+      <p class="scroll-hint">Passe o rato sobre os cartões para pausar a animação.</p>
+    </section>
+
+    <section class="callout container">
+      <div><span class="eyebrow">CADA LINHA CONTA</span><h2>Aprender fazendo.<br><span class="gradient-text">Evoluir criando.</span></h2></div>
+      <a class="btn btn-primary" href="projectos.html">Ver galeria completa <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span><span>OFICINA<span class="accent">WEB</span></span></a><p>Um projecto de aprendizagem de Elieser Hernani · Machine 001</p><span>© <span data-year></span> Oficina Web</span></div></footer>
+</body>
+</html>
