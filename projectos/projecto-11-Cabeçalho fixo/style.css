@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    padding: 1rem;
+}
+
+.cabecalho {
+    position: fixed;
+
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.8rem;
+
+    background: white;
+
+    border: 0.08rem solid #d9d9d9;
+    border-radius: 1.5rem;
+
+    z-index: 100;
+}
+
+.cabecalho span {
+    color: #6b7280;
+}
+
+.conteudo {
+    margin-top: 8rem;
+}
+
+.conteudo p {
+    margin-bottom: 2rem;
+    color: #6b7280;
+    font-size: 1.4rem;
+    line-height: 1.8;
+}

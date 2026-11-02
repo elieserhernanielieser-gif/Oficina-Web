@@ -1,64 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim — Oficina Web</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <title>Sobre mim - Ofina Web</title>
 </head>
 
 <body>
-    <header class="site-header">
-        <nav class="nav container" aria-label="Navegação principal"><a class="brand" href="index.html"><span
-                    class="brand-mark">&lt;/&gt;</span><span>OFICINA<span class="accent">WEB</span></span></a><button
-                class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-            <ul class="nav-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projectos.html">Projectos</a></li>
-                <li><a class="active" href="sobre.html">Sobre mim</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <span class="logo-programacao">&lt;/&gt;</span>
+                <span class="texto-logo">OFICINA<span class="destaque">WEB<span></span>
+
+            </a>
+            <ul class="links">
+                <li><a class="link" href="index.html">Início</a></li>
+                <li><a class="link" href="projectos.html">Projectos</a></li>
+                <li><a class="link" href="sobre.html">Sobre mim</a></li>
+                <li><a class="link" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main class="container page-main">
-        <section class="page-intro"><span class="eyebrow">QUEM ESTÁ POR TRÁS DO CÓDIGO</span>
-            <h1>Sobre <span class="gradient-text">mim.</span></h1>
+    <main>
+        <section class="introducao-sobre">
+            <p class="paragrafo-destaque p-sobre">QUEM ESTÁ POR TRÁS DO CÓDIGO</p>
+            <h1>Sobre <span class="destaque">mim.</span></h1>
             <p>Um pouco sobre o estudante e o processo de aprendizagem por detrás desta colecção.</p>
         </section>
-        <section class="about-layout">
-            <div class="about-avatar">
-                <div class="profile-placeholder"></div>
+        <section class="sobre-mim-layout">
+            <div class="fundo-img">
+                <div class="moldura-img">
+                    <img src="" alt="">
+                </div>
             </div>
-            <div class="about-copy"><span class="code-label">&lt; estudante em evolução /&gt;</span>
-                <h2>Elieser Hernani <span class="accent">· Machine 001</span></h2>
-                <p>Sou estudante da 12.ª classe do Instituto Politécnico Industrial de Luanda (IPIL), no curso Técnico
+            <div class="about-copy">
+                <p class="paragrafo-destaque">&lt; estudante em evolução /&gt;</p>
+                <h2>Elieser Hernani <span class="apelido">· Machine 001</span></h2>
+                <p>
+                    Sou estudante da 12.ª classe do Instituto Politécnico Industrial de Luanda (IPIL), no curso Técnico
                     de Gestão de Sistemas Informáticos. Tenho interesse pelo desenvolvimento de software, pela
-                    tecnologia e pela resolução de problemas.</p>
-                <p>Este espaço reúne exercícios práticos que desenvolvi para consolidar os meus conhecimentos de HTML e
+                    tecnologia e pela resolução de problemas.
+                </p>
+                <p>
+                    Este espaço reúne exercícios práticos que desenvolvi para consolidar os meus conhecimentos de HTML e
                     CSS. Cada página representa uma oportunidade para experimentar, cometer erros, aprender e melhorar.
                 </p>
-                <div class="skill-list"><span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span
-                        class="tech-chip">Desenvolvimento Web</span><span class="tech-chip">Aprendizagem contínua</span>
+                <div class="tecnologias">
+                    <span class="tech">HTML5</span>
+                    <span class="tech">CSS3</span>
+                    <span class="tech-nota">Desenvolvimento Web</span>
+                    <span class="tech-nota">Aprendizagem contínua</span>
                 </div>
             </div>
         </section>
-        <section class="callout">
-            <div><span class="eyebrow">A MINHA FILOSOFIA</span>
-                <h2>Grandes resultados vêm de <span class="gradient-text">pequenos passos.</span></h2>
+        <section class="filosofia">
+            <div>
+                <span class="paragrafo-destaque filosofia-p">A MINHA FILOSOFIA</span>
+                <h2>Grandes resultados vêm de <span class="destaque">pequenos passos.</span></h2>
             </div>
         </section>
     </main>
-    <footer class="site-footer">
-        <div class="container footer-inner"><a class="brand" href="index.html"><span
-                    class="brand-mark">&lt;/&gt;</span><span>OFICINA<span class="accent">WEB</span></span></a>
-            <p>Elieser Hernani · Machine 001</p><span>© <span data-year></span> Oficina Web</span>
+    <footer>
+        <div class="footer-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-programacao">&lt;/&gt;</span>
+            <span class="texto-logo">OFICINA<span class="paragrafo-destaque">WEB<span></span>
+
+        </a>
+        <p>Um projecto de aprendizagem de Elieser Hernani · Machine 001</p>
+        <p>&copy; 2026 Oficina Web</p>
         </div>
     </footer>
 </body>

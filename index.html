@@ -1,91 +1,274 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Oficina Web — uma coleção de experiências práticas de HTML e CSS.">
-  <title>Oficina Web — Elieser Hernani</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ofina Web - Machine 001</title>
 </head>
 
 <body>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Navegação principal">
-      <a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span><span>OFICINA<span
-            class="accent">WEB</span></span></a>
-      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-      <ul class="nav-links">
-        <li><a class="active" href="index.html">Início</a></li>
-        <li><a href="projectos.html">Projectos</a></li>
-        <li><a href="sobre.html">Sobre mim</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <span class="logo-programacao">&lt;/&gt;</span>
+                <span class="texto-logo">OFICINA<span class="paragrafo-destaque">WEB<span></span>
 
-  <main>
-    <section class="hero container">
-      <div class="hero-copy">
-        <span class="eyebrow"><span class="status-dot"></span> APRENDER • CRIAR • EXPERIMENTAR</span>
-        <p class="code-label">&lt; Bem-vindo à minha oficina /&gt;</p>
-        <h1>Olá, sou <span class="gradient-text">Elieser Hernani.</span></h1>
-        <h2 class="hero-subtitle">Também conhecido como <span class="accent">Machine 001</span></h2>
-        <p class="hero-description">Sou estudante de desenvolvimento de software, apaixonado por tecnologia, programação
-          e criação de experiências digitais. Aqui reúno 15 exercícios práticos desenvolvidos com HTML e CSS.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="projectos.html">Explorar projectos <span>↗</span></a>
-          <a class="btn btn-outline" href="sobre.html">Conhecer o autor</a>
-        </div>
-        <div class="tech-list">
-          <span class="tech-chip">HTML <b>5</b></span>
-          <span class="tech-chip">CSS <b>3</b></span>
-          <span class="tech-note">A construir, um projecto de cada vez.</span>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="visual-glow"></div>
-        <div class="profile-frame">
-          <div class="profile-placeholder"></div>
-          <div class="frame-tag">&lt; MACHINE_001 /&gt;</div>
-        </div>
-        <div class="floating-card"><span class="status-dot"></span> Em constante aprendizagem</div>
-        <div class="visual-caption">“Grandes resultados vêm de pequenos passos.”</div>
-      </div>
-    </section>
+            </a>
+            <ul class="links">
+                <li><a class="link active" href="index.html">Início</a></li>
+                <li><a class="link" href="projectos.html">Projectos</a></li>
+                <li><a class="link" href="sobre.html">Sobre mim</a></li>
+                <li><a class="link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="principal">
+            <article>
+                <p class="slogan"><span class="estado"></span> APRENDER • CRIAR • EXPERIMENTAR</p>
+                <p class="paragrafo-destaque p-benvindo">&lt; Bem vindo à minha oficina /&gt;</p>
+                <h1>Olá, sou <span class="destaque">Elieser Hernani.</span></h1>
+                <p class="apelido">Também conhecido como <span class="paragrafo-destaque">Machine 001</span></p>
+                <p>
+                    Sou estudante de desenvolvimento de software, apaixonado por tecnologia, programação e criação de
+                    experiências digitais. Aqui reúno 15 exercícios práticos desenvolvidos com HTML e CSS.
+                </p>
+                <div>
+                    <a href="projectos.html" class="btn btn-explorar">Explorar projectos <span class="seta">↗</span></a>
+                    <a href="sobre.html" class="btn btn-sobre">Conhecer o autor</a>
+                </div>
+                <div class="tecnologias">
+                    <span class="tech">HTML5</span>
+                    <span class="tech">CSS3</span>
+                    <p class="tech-nota">A contruir, um prijecto de cada vez.</p>
+                </div>
+            </article>
+            <article local-img>
+                <div class="fundo-desfoque"></div>
+                <div class="fundo-img">
+                    <div class="moldura-img">
+                        <img src="" alt="">
+                        <span class="pensamento"><span class="estado"></span> Em constante aprendizagem</span>
+                        <span class="foto-apelido">Machine 001</span>
+                    </div>
+                </div>
+                <p class="slogan-img">"Grandes resultados vêm de pequenos passos"</p>
+            </article>
+        </section>
+        <section class="experiencias">
+            <p class="pergunta">O que tenho contruído</p>
+            <h2>As minhas <span class="destaque">experiências.</span></h2>
+            <p>Uma selecção de páginas e exercícios desenvolvidos durante a minha aprendizagem.</p>
+            <a href="projectos.html">Ver os 15 projectos →</a>
+            <article class="projectos">
+                <a href="paginas de projecto/projecto01.html" class="projecto">
+                    <div class="projecto-img" 
+                    style="background-image: url(assets/Projectos_Fotos/Projecto\ 01\ -\ Cartão\ de\ Perfil.jpeg);">
+                    </div>
+                    <p class="experiencia">Experiência 01</p>
+                    <h3>Cartão de Perfil</h3>
+                    <p>
+                        Cartão de utilizador com avatar, informações pessoais, botões de ação e estatísticas organizadas
+                        com Flexbox.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto02.html" class="projecto">
+                    <div class="projecto-img"
+                    style="background-image: url(assets/Projectos_Fotos/Projecto\ 02\ -\ Barra\ de\ navegação.jpeg);">
+                    </div>
+                    <p class="experiencia">Experiência 02</p>
+                    <h3>Barra de Navegação</h3>
+                    <p>
+                        Barra de navegação responsiva com logótipo, links de menu e botão de ação, organizada
+                        horizontalmente com Flexbox.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto03.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 03\ -\ Galeria\ em\ mosaico.jpeg);">
 
-    <section class="projects-section section container">
-      <div class="section-heading">
-        <div><span class="eyebrow">O QUE TENHO CONSTRUÍDO</span>
-          <h2>As minhas <span class="gradient-text">experiências.</span></h2>
-          <p>Uma selecção de páginas e exercícios desenvolvidos durante a minha aprendizagem.</p>
+                    </div>
+                    <p class="experiencia">Experiência 03</p>
+                    <h3>Galeria em Mosaico</h3>
+                    <p>
+                        Galeria de imagens construída com CSS Grid, combinando elementos de diferentes tamanhos numa
+                        grelha organizada.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto04.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 04\ -\ Artigo\ com\ tipografia\ cuidada.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 04</p>
+                    <h3>Artigo com tipográfia</h3>
+                    <p>
+                        Aplicação de efeitos tipográficos avançados como letra capital, aspas decorativas, texto
+                        truncado com reticências e personalização da seleção de texto.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto05.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 05\ -\ Catálogo\ que\ se\ ajusta\ sozinho.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 05</p>
+                    <h3>Católogo que se Ajusta Sozinho</h3>
+                    <p>
+                        Catálogo responsivo que reorganiza automaticamente os cartões de produtos conforme o espaço
+                        disponível, sem usar media queries.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto06.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 06\ -\ Cartões\ de\ notícias.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 06</p>
+                    <h3>Cartão de notícia</h3>
+                    <p>
+                        Construção de cartões com altura uniforme, etiquetas e botão sempre alinhado à base através de
+                        Flexbox.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto07.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 07\ -\ Animação\ de\ carregamento.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 07</p>
+                    <h3>Animação de Carregamento</h3>
+                    <p>
+                        Implementação de animações CSS incluindo spinner, skeleton loading e indicador de notificação
+                        pulsante.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto08.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 08\ -\ Página\ de\ Blog.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 08</p>
+                    <h3>Página de Blog</h3>
+                    <p>
+                        Layout de blog responsivo com cabeçalho, artigo, barra lateral e rodapé utilizando CSS Grid e
+                        Media Queries.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto09.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 09\ -\ Galeria\ com\ efeito.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 09</p>
+                    <h3>Galeria com Efeito</h3>
+                    <p>
+                        Galeria de imagens com animações de hover, zoom na fotografia e legenda deslizante sobre a
+                        imagem.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto10.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 10\ -\ Cartão\ de\ curso.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 10</p>
+                    <h3>Cartão de Curso</h3>
+                    <p>
+                        Criação de um cartão com selo ("Novo"), imagem de fundo, título sobreposto e botão de ação
+                        usando posicionamento absoluto.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto11.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 11\ -\ Cabeçalho\ fixo.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 11</p>
+                    <h3>Cabeçalho Fixo</h3>
+                    <p>
+                        Utilizção de position:fixed para manter o cabeçalho fixo.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto12.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 12\ -\ Painel\ com\ tema\ por\ variáveis.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 12</p>
+                    <h3>Painel com temas por variáveis</h3>
+                    <p>
+                        Utilização de variáveis CSS (:root) para controlar cores e permitir a alteração rápida do tema
+                        de todo o painel.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto13.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 13\ -\ Painel\ com\ tema\ por\ variáveis\ vermelho.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 13</p>
+                    <h3>Painel com temas por variáveis (Cor vermelha)</h3>
+                    <p>
+                        Utilização de variáveis CSS (:root) para controlar cores e permitir a alteração rápida do tema
+                        de todo o painel (Cor Vemelha).
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto14.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 14\ -\ Cartão\ com\ degradês.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 14</p>
+                    <h3>Cartão com Degradês</h3>
+                    <p>
+                        Aplicação de gradientes em fundo, texto e botão, combinados com sombras para criar profundidade
+                        visual.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+                <a href="paginas de projecto/projecto15.html" class="projecto">
+                    <div class="projecto-img" style="background: url(assets/Projectos_Fotos/Projecto\ 15\ -\ Cabeçalho\ fixo\ e\ botão\ de\ topo.jpeg);">
+
+                    </div>
+                    <p class="experiencia">Experiência 15</p>
+                    <h3>Cabeçalho fixo e botão de topo</h3>
+                    <p>
+                        Utilização de position: sticky para manter o cabeçalho visível durante o scroll e botão fixo
+                        para regressar ao topo da página.
+                    </p>
+                    <span>Ver projecto ↗</span>
+                </a>
+            </article>
+        </section>
+        <section class="ir-para-galeria">
+            <div>
+                <p>Cada Linha Conta</p>
+                <h2>
+                    Aprender fazendo. <br>
+                    <span class="destaque">Evoluir Criando.</span>
+                </h2>
+            </div>
+            <div>
+                <a class="btn btn-explorar" href="projectos.html">Ver galeria completa <span class="seta">↗</span></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-programacao">&lt;/&gt;</span>
+            <span class="texto-logo">OFICINA<span class="paragrafo-destaque">WEB<span></span>
+
+        </a>
+        <p>Um projecto de aprendizagem de Elieser Hernani · Machine 001</p>
+        <p>&copy; 2026 Oficina Web</p>
         </div>
-        <a class="text-link" href="projectos.html">Ver os 15 projectos <span>→</span></a>
-      </div>
-      <div class="project-track" id="featured-projects"></div>
-    </section>
+    </footer>
 
-    <section class="callout container">
-      <div><span class="eyebrow">CADA LINHA CONTA</span>
-        <h2>Aprender fazendo.<br><span class="gradient-text">Evoluir criando.</span></h2>
-      </div>
-      <a class="btn btn-primary" href="projectos.html">Ver galeria completa <span>↗</span></a>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner"><a class="brand" href="index.html"><span
-          class="brand-mark">&lt;/&gt;</span><span>OFICINA<span class="accent">WEB</span></span></a>
-      <p>Um projecto de aprendizagem de Elieser Hernani · Machine 001</p><span>© <span data-year></span> Oficina
-        Web</span>
-    </div>
-  </footer>
 </body>
 
 </html>
